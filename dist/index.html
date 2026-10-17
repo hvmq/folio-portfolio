@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f2">
+  <meta name="description" content="Folio — Không gian giới thiệu thiết kế và phát triển web. Khám phá các dự án concept từ thương mại điện tử, landing page đến blog và ứng dụng web.">
+  <title>folio. — Thiết kế có gu. Code có tâm.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Đến nội dung chính</a>
+  <header class="site-header shell">
+    <a class="wordmark" href="#" aria-label="Folio — Trang chủ">folio<span>.</span></a>
+    <nav aria-label="Điều hướng chính" id="navigation">
+      <a href="#work" class="nav-link">Dự án <span>06</span></a>
+      <a href="#about" class="nav-link">Về mình</a>
+      <a href="#contact" class="nav-contact">Cùng làm điều hay <span aria-hidden="true">↗</span></a>
+    </nav>
+    <button class="menu-toggle" aria-label="Mở menu" aria-controls="navigation" aria-expanded="false"><span></span><span></span></button>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> INDEPENDENT DESIGNER & DEVELOPER</p>
+        <h1 id="hero-title">Thiết kế có <em>gu.</em><br>Code có <em>tâm.</em></h1>
+        <p class="hero-description">Biến ý tưởng thành những website có cá tính.<br>Từ một trang giới thiệu nhỏ, đến trải nghiệm số<br class="desktop-br"> khiến người dùng muốn ở lại.</p>
+        <a class="button dark" href="#work">Khám phá dự án <span aria-hidden="true">↘</span></a>
+        <div class="hero-footnote"><span class="tiny-star" aria-hidden="true">✳</span><span>Một chút thẩm mỹ. Một chút logic.<br>Rất nhiều sự chăm chút.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Minh họa giao diện cửa hàng nội thất Objects">
+        <div class="art-grid"></div><div class="lime-disc"></div>
+        <div class="vertical-label">IDEAS INTO EXPERIENCES — 2026</div>
+        <div class="hero-browser">
+          <div class="browser-bar"><span class="browser-dots"><i></i><i></i><i></i></span><span>objects.studio</span><span>↗</span></div>
+          <div class="objects-mini">
+            <div class="mini-nav"><strong>objects.</strong><span>Furniture &nbsp; Lighting &nbsp; Objects</span><span>Bag (0)</span></div>
+            <div class="mini-title">Less, but<br><i>better.</i></div>
+            <p>Thoughtful objects for everyday living.</p>
+            <span class="mini-shop">Explore collection &nbsp; ↗</span>
+            <img src="assets/chair.jpg" alt="Ghế bọc vải trong không gian nội thất tối giản" fetchpriority="high" width="1000" height="1000">
+            <div class="mini-bottom">THE EVERYDAY COLLECTION <span>01 / 03</span></div>
+          </div>
+        </div>
+        <div class="floating-tag"><span>✦</span> Made with intention.</div>
+        <a class="round-link" href="#work" aria-label="Xem các dự án"><span>EXPLORE<br>THE WORK</span><b aria-hidden="true">↘</b></a>
+      </div>
+    </section>
+    <div class="specialty-strip" aria-label="Chuyên môn"><div class="shell"><span>THIẾT KẾ GIAO DIỆN</span><b>✳</b><span>PHÁT TRIỂN WEBSITE</span><b>✳</b><span>TRẢI NGHIỆM NGƯỜI DÙNG</span><b>✳</b><span>Ý TƯỞNG THÀNH HIỆN THỰC</span><b>✳</b></div></div>
+    <section class="work shell section-space" id="work" aria-labelledby="work-title">
+      <div class="section-top"><div><p class="eyebrow muted">01 / SELECTED WORK</p><h2 id="work-title">Mỗi dự án,<br>một <em>cá tính.</em><sup> (06)</sup></h2></div><p>Đa dạng lĩnh vực, đồng nhất sự chỉn chu.<br>Một vài ý tưởng được kể bằng giao diện.<br><span class="concept-note">Bộ sưu tập dự án concept / demo.</span></p></div>
+      <div class="filter-bar" role="group" aria-label="Lọc dự án theo thể loại">
+        <button class="filter active" data-filter="all" aria-pressed="true">Tất cả <span>06</span></button>
+        <button class="filter" data-filter="commerce" aria-pressed="false">E-commerce</button>
+        <button class="filter" data-filter="landing" aria-pressed="false">Landing page</button>
+        <button class="filter" data-filter="blog" aria-pressed="false">Blog</button>
+        <button class="filter" data-filter="app" aria-pressed="false">Web ứng dụng</button>
+        <button class="filter" data-filter="service" aria-pressed="false">Dịch vụ</button>
+      </div>
+      <p class="sr-only" id="filter-status" role="status" aria-live="polite">Đang hiển thị 6 dự án.</p>
+      <div class="project-grid" id="project-grid"></div>
+      <div class="work-end"><span>Ý tưởng khác nhau. Cùng một tinh thần.</span><span>THOUGHTFULLY DESIGNED, CAREFULLY BUILT. <b>↗</b></span></div>
+    </section>
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="about shell section-space">
+      <div class="about-visual"><span class="about-index">A LITTLE ABOUT THE PROCESS</span><div class="abstract-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></div><p>design.<br><i>develop.</i><br>make it matter.</p><div class="about-corner">↗</div><span class="about-caption">CREATIVE MIND. DEVELOPER'S HEART.</span></div>
+      <div class="about-copy"><p class="eyebrow muted">02 / ABOUT ME</p><h2 id="about-title">Đẹp là khởi đầu.<br><em>Hữu ích</em> mới lâu dài.</h2><p>Mình yêu việc kết nối thiết kế và công nghệ — làm ra những website vừa có dấu ấn riêng, vừa dễ dùng trong từng thao tác nhỏ.</p><p>Từ màu sắc, khoảng trắng đến tốc độ tải trang, mỗi lựa chọn đều có lý do. Mình bắt đầu bằng việc lắng nghe, cùng bạn tìm hướng đi, rồi chăm chút cho đến những chi tiết cuối.</p><div class="skills"><span>UI/UX Design</span><span>Responsive Web</span><span>HTML & CSS</span><span>JavaScript</span><span>Creative Development</span></div><a class="text-link" href="#contact">Kể mình nghe ý tưởng của bạn <span>↗</span></a></div>
+    </div></section>
+    <section class="process shell section-space" aria-labelledby="process-title"><div class="section-top"><div><p class="eyebrow muted">03 / HOW I WORK</p><h2 id="process-title">Từ “hay là…”<br>đến <em>“đúng rồi!”</em></h2></div><p>Một quy trình rõ ràng.<br>Để ý tưởng không chỉ nằm trên giấy.</p></div><div class="process-grid"><article><span>01 <b>↗</b></span><h3>Lắng nghe & khám phá</h3><p>Hiểu câu chuyện, người dùng và điều bạn muốn website thực sự làm được.</p></article><article><span>02 <b>↗</b></span><h3>Thiết kế & thử nghiệm</h3><p>Tìm ngôn ngữ hình ảnh, sắp xếp nội dung và làm rõ trải nghiệm qua từng phiên bản.</p></article><article><span>03 <b>↗</b></span><h3>Lập trình & hoàn thiện</h3><p>Đưa thiết kế lên web, kiểm tra trên nhiều màn hình và tinh chỉnh từng tương tác.</p></article></div></section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="shell contact-inner"><p class="eyebrow"><span class="status-dot"></span> GOOD THINGS START WITH A CONVERSATION</p><div class="contact-heading"><h2 id="contact-title">Có một ý tưởng?<br><em>Cùng làm nhé.</em></h2><button class="contact-circle" data-contact aria-label="Mở biểu mẫu trao đổi dự án">↗</button></div><div class="contact-bottom"><p>Một website mới, một lần làm lại,<br>hay chỉ là một câu “mình đang nghĩ…”</p><button class="text-link" data-contact>Viết một lời nhắn <span>↗</span></button></div></div></section>
+  </main>
+  <footer class="shell footer"><a class="wordmark" href="#">folio<span>.</span></a><span>© <span id="year">2026</span> Folio · Portfolio concept</span><a href="#">Trở về đầu trang ↑</a></footer>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span>PROJECT / CONCEPT</span><button class="icon-button" data-close aria-label="Đóng chi tiết dự án">✕</button></div><div id="project-detail"></div></dialog>
+  <dialog class="contact-dialog" id="contact-dialog" aria-labelledby="contact-dialog-title"><div class="dialog-top"><span>LET'S MAKE SOMETHING GOOD</span><button class="icon-button" data-close aria-label="Đóng biểu mẫu liên hệ">✕</button></div><h2 id="contact-dialog-title">Kể mình nghe<br><em>ý tưởng của bạn.</em></h2><p class="form-note">Bạn có thể tạo và tải brief dự án bên dưới. Địa chỉ nhận liên hệ sẽ được chủ portfolio cập nhật sau.</p><form id="contact-form"><label>Tên của bạn<input name="name" autocomplete="name" placeholder="Mình là…" required maxlength="100"></label><label>Email<input name="email" type="email" autocomplete="email" placeholder="ban@example.com" required></label><label>Bạn muốn làm website gì?<select name="type"><option>Website giới thiệu / Portfolio</option><option>Bán hàng / E-commerce</option><option>Landing page</option><option>Blog / Tạp chí</option><option>Dashboard / Ứng dụng web</option><option>Du lịch / Nhà hàng / Dịch vụ</option><option>Một ý tưởng khác</option></select></label><label>Một vài điều về ý tưởng<textarea name="message" placeholder="Mục tiêu, phong cách, thời gian dự kiến…" rows="4" required maxlength="5000"></textarea></label><button class="button dark" type="submit">Tải brief dự án <span>↓</span></button><p class="form-status" id="contact-status" role="status"></p></form></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

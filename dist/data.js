@@ -1,0 +1,12 @@
+// Chỉnh thông tin và dự án ở đây. Không cần cài công cụ build.
+window.FOLIO = {
+  contactEmail: '', // Điền email thật để bật gửi brief qua ứng dụng email.
+  projects: [
+    {id:'objects',name:'Objects.',category:'commerce',label:'E-commerce',subtitle:'Không gian sống, những điều tinh giản.',color:'#e9e6de',description:'Cửa hàng nội thất theo tinh thần ít hơn, tốt hơn. Bố cục thoáng, hình ảnh lớn và hành trình khám phá sản phẩm nhẹ nhàng. Bản demo có danh mục sản phẩm, giỏ hàng và điều chỉnh số lượng.',tags:['Thiết kế giao diện','Cửa hàng nội thất','Giỏ hàng','Responsive']},
+    {id:'orbit',name:'Orbit',category:'landing',label:'Landing page',subtitle:'Một nơi cho mọi ý tưởng cùng chuyển động.',color:'#dce3f4',description:'Landing page cho công cụ quản lý công việc concept. Câu chuyện sản phẩm đi từ lợi ích đến tính năng và bảng giá, với lựa chọn thanh toán tháng/năm và các câu hỏi thường gặp.',tags:['SaaS concept','Bảng giá tương tác','FAQ','Responsive']},
+    {id:'journal',name:'The Journal',category:'blog',label:'Blog / Editorial',subtitle:'Những câu chuyện đáng để chậm lại.',color:'#eddfcf',description:'Tạp chí nhỏ về thiết kế, không gian sống và những thói quen sáng tạo. Kiểu chữ mang hơi hướng biên tập kết hợp hình ảnh ấm, có tìm kiếm, lọc chuyên mục và đọc nội dung bài viết.',tags:['Blog cá nhân','Tìm kiếm bài viết','Chuyên mục','Editorial design']},
+    {id:'pulse',name:'Pulse',category:'app',label:'Dashboard',subtitle:'Dữ liệu rõ ràng. Quyết định dễ dàng.',color:'#e4e8df',description:'Dashboard theo dõi một cửa hàng giả lập, trình bày doanh thu, đơn hàng và sản phẩm trong giao diện gọn gàng. Chuyển khoảng thời gian để cập nhật biểu đồ và xuất dữ liệu CSV.',tags:['Ứng dụng web','Biểu đồ tương tác','Xuất CSV','Dữ liệu mẫu']},
+    {id:'escape',name:'Escape',category:'service',label:'Travel / Booking',subtitle:'Đi xa một chút, để gần mình hơn.',color:'#dce7e7',description:'Website khám phá kỳ nghỉ với màu sắc lấy cảm hứng từ thiên nhiên. Tìm điểm đến, chọn ngày, số khách và tạo một yêu cầu đặt chỗ mẫu — một trải nghiệm du lịch nhẹ nhàng từ đầu đến cuối.',tags:['Du lịch','Tìm điểm đến','Yêu cầu đặt chỗ mẫu','Responsive']},
+    {id:'moka',name:'Moka',category:'service',label:'Restaurant',subtitle:'Chậm một nhịp, ngon thêm một chút.',color:'#e8d7c5',description:'Không gian số cho một quán cà phê và bistro concept. Khách có thể khám phá thực đơn theo nhóm, tạo giỏ món và thử biểu mẫu đặt bàn với phong cách ấm áp, mộc mạc.',tags:['Café & Bistro','Thực đơn tương tác','Giỏ món','Đặt bàn mẫu']}
+  ]
+};
